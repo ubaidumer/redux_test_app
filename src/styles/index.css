@@ -1,0 +1,37 @@
+body{
+    height: 100%;
+    background-repeat: none;
+    opacity: 0.8;
+    background-size: cover;
+    background-image: url('../assets/dota2_social.jpg');
+    color: azure;
+    text-shadow:0 0 3px black,0 0 5px black;
+
+}
+.App{
+    text-align: center;
+    padding: 5%;
+}
+.grid{
+    display: flex;
+}
+
+.right-button{
+    float:right;
+    cursor: pointer;
+}
+
+.list-item{
+    display:inline-block
+}
+.list-group{
+    display: -webkit-inline-box;
+}
+.list-group-item{
+    margin: 2%;
+}
+
+.row{
+    margin: 2%;
+    display: inline-flex;
+}
